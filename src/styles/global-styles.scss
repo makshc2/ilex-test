@@ -1,0 +1,77 @@
+.dashboard-wrapper{
+  background: $bg-dashboard;
+}
+.title{
+  width: 315px;
+  height: 59px;
+  text-overflow: ellipsis;
+  font-family: $title-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: $title-color;
+}
+.today-title{
+  font-family: $description-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $description-color;
+}
+.description{
+  width: 315px;
+  height: 100px;
+  text-overflow: ellipsis;
+  font-family: $description-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: $description-color;
+  &:first-letter{
+    text-transform: capitalize;
+  }
+}
+.counter{
+  font-family: $description-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  color: $counter-color;
+}
+.navigation-wrapper{
+  background: $bg-navigation;
+  width: 12.71vw;
+  position: fixed;
+  .logo{
+    height: 144px;
+  }
+  .tabs-wrapper{
+    margin-top: 30px;
+  }
+}
+.search-wrapper{
+  width: 80vw;
+  .search-input{
+    width: 90%;
+    background: $bg-dashboard;
+  }
+}
+.active-tab{
+  color: $active-tab-color;
+}
+.card-wrapper{
+  width: 355px;
+  height: 248px;
+  background: $bg-post;
+  border-radius: 2px;
+}
+.wrapper-content{
+  width: 89vw;
+  margin-left: 15vw;
+}
